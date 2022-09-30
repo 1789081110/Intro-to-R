@@ -1,0 +1,6 @@
+List1<- c(1,2,3) #create two list that contains numeric values
+List2<-c(4,5,6)
+List3<-c(List1,List2) #assign both the list to another list
+print(List3) #output will be (1,2,3,4,5,6)
+print(List1+List2) # will return(5,7,9)
+class(List1)# datatype of List1-numeric
